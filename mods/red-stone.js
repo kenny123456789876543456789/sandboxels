@@ -4,6 +4,7 @@ runAfterLoad(function() {
         behavior: behaviors.WALL,
         category: "land",
         state: "solid",
+        name: "Red Stone",
         reactions: {
             "water": { "elem1": "lava", "elem2": "water", "chance": 0.5 }
         }
